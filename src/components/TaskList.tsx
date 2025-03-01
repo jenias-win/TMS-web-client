@@ -49,7 +49,7 @@ const TaskListHeaders = [
         "IsVisible": true
     },
 ]
-export function TaskList({ configs, data, callbacks }: TaskListInterface) {
+export function TaskList({ configs, data, callbacks }: any) {
     const [statusData, setStatusData] = useState<any>();
     const [assigneeData, setAssigneeData] = useState<any>();
 

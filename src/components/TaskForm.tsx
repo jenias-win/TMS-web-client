@@ -19,7 +19,7 @@ const Alert = React.forwardRef<HTMLDivElement, AlertProps>(function Alert(
     ref,
 ) {
     return <MuiAlert elevation={5} ref={ref} variant="filled" {...props} />;
-});
+})
 
 export default function TaskForm({ configs, data, callbacks }: any) {
 
